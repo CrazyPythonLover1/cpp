@@ -19,5 +19,6 @@
   "files.associations": {
     "iostream": "cpp",
     "ostream": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
 }
