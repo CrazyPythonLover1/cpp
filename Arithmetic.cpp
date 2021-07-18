@@ -1,4 +1,5 @@
 #include<iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -7,13 +8,18 @@ int main()
     cout << " Enter 2 numbers : ";
     cin >> num1 >> num2;
 
-    int sum = num1 + num2;
+    // cout << noshowpoint;
+    cout<<showpoint;
+    cout<<fixed;
+    cout<<setprecision(2);
+
+    float sum = num1 + num2;
     cout <<"Sum is : " << sum << endl;
 
-    int sub = num1 - num2;
+    float sub = num1 - num2;
     cout <<"Subtraction is : " << sub << endl;
 
-    int mul = num1 * num2;
+    float mul = num1 * num2;
     cout <<"Multiplication is : " << mul << endl;
 
     float div = (float) num1 / num2;
