@@ -28,5 +28,16 @@ int main()
     int rem = num1 % num2;
     cout <<"Reminder is : " << rem << endl;
 
+    // Assignment operator
+    // x += 5
+
+    // Unary Operator
+    // int x = 3;
+    // int y = x--;
+    // int z = y;
+    // cout << x << endl;
+    // cout << y << endl;
+    // cout << z << endl;
+
     return 0;
 }
