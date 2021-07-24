@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 int main()
@@ -8,6 +9,7 @@ int main()
     cout << "Enter the last number : ";
     cin >> n;
 
+    // Series
     for (int i = 1; i<=n; i++)
     {
         // sum += i;
@@ -24,11 +26,25 @@ int main()
     // Odd Series 
     for( int i = 1; i<=n; i+=2)
     {
-        sum += i;
-        cout << i << endl;
+        // sum += i;
+        // cout << i << endl;
+    }
+
+    // Square Series
+    for(int i=1; i<=n; i++)
+    {
+        // sum += pow(i,2);
+        // cout << i*i << endl;
+    }
+
+    // x to the power 5 ===> Series
+    for(int i=1; i<=n; i++)
+    {
+        sum += pow(i,5);
+        cout << pow(i,5) << endl;
     }
     
-    cout << sum;
+    cout << "Sum of the Series: " << sum << endl;
 
     return 0;
 }
